@@ -18,14 +18,12 @@ class Day2Test {
     }
 
     @Test
-    void partOne() throws IOException {
-
+    void partOne() {
         assertEquals("150", day.partOne(stringCommands));
     }
 
     @Test
-    void partTwo() throws IOException {
-
+    void partTwo() {
         assertEquals("900", day.partTwo(stringCommands));
     }
 
