@@ -2,6 +2,7 @@ package com.adventOfCode;
 
 import com.adventOfCode.calendar.Day;
 import com.adventOfCode.calendar.Day1;
+import com.adventOfCode.calendar.Day2;
 import com.adventOfCode.service.InputFileReader;
 
 import java.io.IOException;
@@ -11,10 +12,10 @@ public class App {
     public static void main(String[] args) throws IOException {
         System.out.println("Advent Of Code 2021");
 
-        String fileName = "src/main/resources/" + "day1.txt";
+        String fileName = "src/main/resources/" + "day2.txt";
         List<String> input = InputFileReader.readFileAsListOfString(fileName);
 
-        Day day = new Day1();
+        Day day = new Day2();
 
         System.out.println(day.getClass().getSimpleName());
         System.out.println("-----------------------------------------------------");
